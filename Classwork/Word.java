@@ -15,7 +15,6 @@ System.out.print("Enter a word: ");
 String word = input.nextLine();
 
 int length = word.length();
-String remove = word.replaceAll("\\s+", "");
 
 word = word.toLowerCase();
 
@@ -23,9 +22,6 @@ for(i = 0; i < length; i++){
 
 char ch = word.charAt(i);
 
-if (word.charAt == remove){
-noSpace++
-}
 
 if (ch =='a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
 vowel++;
